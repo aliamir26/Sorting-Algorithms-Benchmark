@@ -1,0 +1,18 @@
+# Dataset files are large and belong to Kaggle - never commit them
+data/
+*.csv.zip
+2*.csv
+!results/*.csv
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Credentials - NEVER upload these
+kaggle.json
+
+# OS junk
+.DS_Store
+Thumbs.db
